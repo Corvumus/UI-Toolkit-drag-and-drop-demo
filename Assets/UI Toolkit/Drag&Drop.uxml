@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Drag&amp;Drop%20Styles.uss?fileID=7433441132597879392&amp;guid=321e2c934c4b1374491e7fd81d79c959&amp;type=3#Drag&amp;Drop Styles"/>
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(11, 226, 255);">
+        <ui:VisualElement name="DragableWindow2" class="draggable" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/UI%20board%20Medium%20Set.png?fileID=2800000&amp;guid=dd17aafdf2f5c1a4d96f9f1fce1d6c45&amp;type=3#UI board Medium Set&quot;); width: 600px; height: 400px; min-height: 0; max-height: 400px; min-width: 0; max-width: 600px; position: absolute; top: 211px; left: 212px;">
+            <ui:VisualElement name="Header" style="background-image: url(&quot;project://database/Assets/Sprites/IRONY%20TITLE%20%20Large.png?fileID=2800000&amp;guid=e4786bae268630e4ca425b0e05f8c8be&amp;type=3#IRONY TITLE  Large&quot;); max-height: 75px; max-width: 300px; align-items: center; height: 426px; justify-content: flex-start; align-self: center; width: 500px; top: 0;">
+                <ui:Label text="Перетаскиваемое окно" style="bottom: auto; right: auto; left: auto; top: auto; font-size: 20px; color: rgb(0, 0, 0); padding-top: 18px;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="DragableWindow" class="draggable" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/UI%20board%20Medium%20Set.png?fileID=2800000&amp;guid=dd17aafdf2f5c1a4d96f9f1fce1d6c45&amp;type=3#UI board Medium Set&quot;); width: 600px; height: 400px; min-height: 0; max-height: 400px; min-width: 0; max-width: 600px; position: absolute; top: 389px; left: 946px;">
+            <ui:VisualElement name="Header" style="background-image: url(&quot;project://database/Assets/Sprites/IRONY%20TITLE%20%20Large.png?fileID=2800000&amp;guid=e4786bae268630e4ca425b0e05f8c8be&amp;type=3#IRONY TITLE  Large&quot;); max-height: 75px; max-width: 300px; align-items: center; height: 426px; justify-content: flex-start; align-self: center; width: 500px; top: 0;">
+                <ui:Label text="Перетаскиваемое окно" style="bottom: auto; right: auto; left: auto; top: auto; font-size: 20px; color: rgb(0, 0, 0); padding-top: 18px;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
